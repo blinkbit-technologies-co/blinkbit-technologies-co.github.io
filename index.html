@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlinkBit | A-MAX v1.0</title>
+    <style>
+        /* Custom CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #0a0f24;
+            color: #ffffff;
+        }
+
+        .navbar {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00f3ff;
+            text-decoration: none;
+            animation: blink 1.5s infinite;
+        }
+
+        .hero {
+            padding: 8rem 2rem;
+            text-align: center;
+            background: linear-gradient(45deg, #0a0f24, #1a1f34);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #8a8f9d;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background: #00f3ff;
+            color: #0a0f24;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .features {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        footer {
+            padding: 3rem 2rem;
+            background: #000;
+            text-align: center;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">BlinkBit</a>
+    </nav>
+
+    <section class="hero">
+        <h1>A-MAX v1.0</h1>
+        <p>Linking intelligence to action</p>
+        <a href="#contact" class="cta-button">Talk to A-MAX</a>
+    </section>
+
+    <section class="features">
+        <h2>Why A-MAX?</h2>
+        <p>Fast. Focused. Future-Proof.</p>
+        <!-- Add feature cards here later -->
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Founded April 15, 2025</p>
+        <p>“Founded by one, led by one”</p>
+        <p>Phone: <a href="tel:251-444-6077">251-444-6077</a></p>
+        <p>Email: <a href="mailto:blinkbit@gmail.com">blinkbit@gmail.com</a></p>
+    </footer>
+</body>
+</html>
