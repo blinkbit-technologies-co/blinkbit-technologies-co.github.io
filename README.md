@@ -41,7 +41,7 @@ title: BlinkBit | A-MAX v1.0
 **Founded**: April 15, 2025  
 **Motto**: *“Founded by one, led by one”*  
 **Phone**: [251-444-6077](tel:251-444-6077)  
-**Email**: [blinkbit@gmail.com](mailto:blinkbit@gmail.com)  
+**Email**: [blinkbit.technologies@gmail.com](mailto:blinkbit.technologies@gmail.com)  
 
 ---
 
