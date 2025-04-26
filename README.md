@@ -19,7 +19,7 @@
 title: BlinkBit | A-MAX v1.0
 ---
 
-# ![BlinkBit Logo](placeholder-logo.png) BlinkBit  
+# ![BlinkBit Logo](bbit.png) BlinkBit  
 *Fast. Focused. Future-Proof.*
 
 ---
